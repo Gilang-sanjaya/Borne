@@ -56,6 +56,7 @@ logo = """
 ║║██░░░░░░░░░░░░░░░░░░╔╝╔╝
 ║╚════════════════════╝╔╝
 ╚══════════════════════╝"""
+
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -118,7 +119,7 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		print 42*"\033[1;96m｡☆✼★━━━━━━━━━━━━★✼☆｡" 
+		print "\033[1;96m｡☆✼★━━━━━━━━━━━━★✼☆｡" 
 
 		print('\033[1;96m[°•]Login With Facebook \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;91m[-] Id/Email \x1b[1;91m: \x1b[1;92m')
